@@ -1,0 +1,46 @@
+body{
+  margin: 0;
+  font-family: sans-serif;
+}
+
+nav {
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex-basis: 15vw;
+  flex-shrink: 0;
+}
+
+nav a {
+  text-decoration: none;;
+  background-color: white;
+  color: grey;
+  padding: 0.2em 0.5em;
+  margin: yellow;
+  transition: background-color 0.5s;
+}
+
+nav a:hover {
+  background-color: black;
+  color: white;
+}
+
+header, section {
+  overflow: auto;
+  color: grey;
+  background-color: white;
+  padding: 0 0.8em;
+}
+
+section {
+  box-sizing: border-box;
+}
+
+main{
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 0 0.8em;
+  background-color: white;
+  color: grey;
+}
